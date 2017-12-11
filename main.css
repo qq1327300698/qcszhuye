@@ -1,0 +1,183 @@
+// @font-face{
+//     font-family:"heiti";
+//     src:url("C:\Windows\Fonts")
+// }
+.container{
+    max-width:1200px;
+    padding:0;
+}
+.logo_kuang{
+    height:150px;
+    width:100%;
+    background: url(images/nav_bg_772dda2.jpg);
+    // position: absolute;
+}
+.nr_kuang{
+    height:900px;
+    width:100%;
+    background: url(images/timg.jpg);
+}
+.container .logo .col-sm-3 img{
+    margin-left: 30px;
+}
+.container .logo .col-sm-6 .col-sm-3 .row{
+    margin:auto;
+}
+
+.container .logo .col-sm-6 .col-sm-3 .row:last-child{
+    margin-top:15px;
+    width:34px;
+}
+
+.container .logo .col-sm-6 .col-sm-3 a{
+    font-family: "AdobeHeitiStd-Regular";
+    font-size: 16px;
+    font-weight: 900;
+    color:#aaa;
+    text-align: center;
+    text-shadow:#000 3px 3px 2px;
+    text-decoration: none;
+}
+.container .logo .col-sm-6 .col-sm-3 a:hover{
+    font-family: "AdobeHeitiStd-Regular";
+    font-size: 16px;
+    font-weight: 900;
+    color:#fff;
+    text-align: center;
+    text-shadow:#000 3px 3px 2px;
+    text-decoration: none;
+}
+.container .logo .col-sm-6 .col-sm-3 a:active{
+    font-family: "AdobeHeitiStd-Regular";
+    font-size: 16px;
+    font-weight: 900;
+    color:#fff;
+    text-align: center;
+    text-decoration: none;
+    text-shadow:#000 2px 0 0,#000 0 1px 0,#000 -1px 0 0,#000 0 -1px 0;
+}
+.container .logo .col-sm-6 .img_1 .row:first-child{
+    background:url(images/btns_ad8022f.png);
+    background-position:-572px -20px;
+    padding: 0px;
+    margin-top: 50px;
+    width: 67px;
+    height:40px;
+}
+.container .logo .col-sm-6 .img_2 .row:first-child{
+    background:url(images/btns_ad8022f.png);
+    background-position:-504px -20px;
+    padding: 0px;
+    margin-top: 50px;
+    width: 42px;
+    height:42px;
+}
+.container .logo .col-sm-6 .img_3 .row:first-child{
+    background:url(images/btns_ad8022f.png);
+    background-position:-345px -20px;
+    padding: 0px;
+    margin-top: 50px;
+    width: 43px;
+    height:40px;
+}
+.container .logo .col-sm-6 .img_4 .row:first-child{
+    background:url(images/btns_ad8022f.png);
+    background-position:-668px -20px;
+    padding: 0px;
+    margin-top: 50px;
+    width: 42px;
+    height:40px;
+}
+.menu{
+    height:600px;
+    margin-top: 50px;
+    background:rgba(255,255,255,0.5);
+    box-shadow: #333 1px 1px 7px;
+
+}
+.mulu{
+    background:url(images/lvkuai_03.jpg) no-repeat;
+    height:66px;
+    text-align:center;
+}
+.mulu a{
+    color:#fff;
+    text-decoration:none;
+    text-shadow:#000 2px 2px 5px;
+    font-size:20px;
+    line-height: 66px;
+    font-family:"AdobeHeitiStd-Regular";
+}
+.gao{
+    margin-top:20px;
+}
+.video_1{
+    box-shadow:#333 2px 2px 3px;
+}
+.video_1:active{
+    box-shadow:none;
+}
+.biaoti{
+    background:url(images/biaoti_03.png) no-repeat;
+    background-size: 100%;
+    height:79px;
+    text-align: center;
+    line-height:79px;
+}
+.biaoti a{
+    font-size:33px;
+    font-weight:200;
+    font-family:"AdobeHeitiStd-Regular";
+    text-decoration:none;
+    color:#36e242;
+}
+.nr_1{
+    margin-top:25px;
+}
+.nr_1 a{
+    border-color: none;
+}
+.nr_1 a:hover{
+    border-color: none;
+}
+.video_2{
+        transition:none;
+        border:none;
+        padding:0;
+        margin:0;
+}
+.video_2 span{
+    background:rgba(0,0,0,0.5);
+    position:absolute;
+    color:#fff;
+    font-size:14px;
+    top:72px;
+}
+.ti{
+    background:#fff;
+}
+.ti a{
+    font-family:"微软雅黑";
+    color:#000;
+}
+.ti span{
+    color:#aaa;
+    font-size:12px;
+}
+.ti div{
+
+    text-align:right;
+}
+.ship{
+    height:100%;
+    display: none;
+}
+.ship .col-sm-12{
+    padding-top:30px;
+    text-align:center;
+    height:100%;
+}
+.ship iframe{
+    width:85%;
+    height:75%;
+}
